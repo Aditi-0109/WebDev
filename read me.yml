@@ -1,0 +1,55 @@
+
+Ecommerce
+    roles and reponsibilities
+    D supermadmin
+        creeate and manages the platform-mvp
+        manages users onbording-mvp
+    D vendor...(admin)*
+        authentication-mvp...*
+      D      signup*
+                userid# primary and system generated*
+                username*
+                password*
+                usertype*
+                created_date#must have in db*
+        D manages product-mvp...*
+       D     MENU*
+            add...*
+                pid*
+                name*
+                price*
+                detail*
+                images*
+                owner*
+                created_date*
+         D   view...*
+           # edit*
+        D   ## delete*....  
+        #manage order-mvp.....*
+   D    ##     view orders....
+            edit orders
+        manage offers/discounts
+    customer    .....+ register.. login..(client)*
+       D authentication -mvp...*
+        D manage profile
+        D view product-mvp....*
+        Dmanage cart-mvp....*
+         D   add card...*
+          D  view cart...*.
+           D  delete cart....*
+       # manage order
+    D  # #    place order-mvp...
+            cancel order
+            track order
+    
+    data analysis
+        manage trends
+        fix vendor comission
+    customer care
+        manage complains
+        investigate
+        facilitate returns    
+        product+platform comission+vendor profit
+
+
+        
